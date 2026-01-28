@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+sudo sed -i 's/^deb/# deb/' /etc/apt/sources.list.d/yarn. List
+
 echo "Installing Grafana..."
 
 # Add Grafana APT repo
